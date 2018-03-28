@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		761D4B5F206B971F00665B78 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 761D4B5E206B971F00665B78 /* AppDelegate.m */; };
+		761D4B62206B971F00665B78 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 761D4B61206B971F00665B78 /* ViewController.m */; };
+		761D4B65206B971F00665B78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 761D4B63206B971F00665B78 /* Main.storyboard */; };
+		761D4B67206B971F00665B78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 761D4B66206B971F00665B78 /* Assets.xcassets */; };
+		761D4B6A206B971F00665B78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 761D4B68206B971F00665B78 /* LaunchScreen.storyboard */; };
+		761D4B6D206B971F00665B78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 761D4B6C206B971F00665B78 /* main.m */; };
+		761D4B77206B971F00665B78 /* HoverButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 761D4B76206B971F00665B78 /* HoverButtonTests.m */; };
+		761D4B82206B971F00665B78 /* HoverButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 761D4B81206B971F00665B78 /* HoverButtonUITests.m */; };
+		761D4BA0206B973A00665B78 /* header@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 761D4B92206B973A00665B78 /* header@2x.png */; };
+		761D4BA1206B973A00665B78 /* header@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 761D4B93206B973A00665B78 /* header@3x.png */; };
+		761D4BA2206B973A00665B78 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 761D4B94206B973A00665B78 /* icon.png */; };
+		761D4BA3206B973A00665B78 /* icon1.png in Resources */ = {isa = PBXBuildFile; fileRef = 761D4B95206B973A00665B78 /* icon1.png */; };
+		761D4BA4206B973A00665B78 /* PersonalCenterMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 761D4B97206B973A00665B78 /* PersonalCenterMainView.m */; };
+		761D4BA5206B973A00665B78 /* PersonalCenterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 761D4B99206B973A00665B78 /* PersonalCenterView.m */; };
+		761D4BA6206B973A00665B78 /* touxiang@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 761D4B9A206B973A00665B78 /* touxiang@2x.png */; };
+		761D4BA7206B973A00665B78 /* touxiang@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 761D4B9B206B973A00665B78 /* touxiang@3x.png */; };
+		761D4BA8206B973A00665B78 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 761D4B9D206B973A00665B78 /* UIView+Extension.m */; };
+		761D4BA9206B973A00665B78 /* SuspensionAssistiveTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = 761D4B9F206B973A00665B78 /* SuspensionAssistiveTouch.m */; };
+		761D4BAC206B989B00665B78 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 761D4BAB206B989B00665B78 /* NextViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		761D4B73206B971F00665B78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 761D4B52206B971F00665B78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 761D4B59206B971F00665B78;
+			remoteInfo = HoverButton;
+		};
+		761D4B7E206B971F00665B78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 761D4B52206B971F00665B78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 761D4B59206B971F00665B78;
+			remoteInfo = HoverButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		761D4B5A206B971F00665B78 /* HoverButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoverButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		761D4B5D206B971F00665B78 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		761D4B5E206B971F00665B78 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		761D4B60206B971F00665B78 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		761D4B61206B971F00665B78 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		761D4B64206B971F00665B78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		761D4B66206B971F00665B78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		761D4B69206B971F00665B78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		761D4B6B206B971F00665B78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		761D4B6C206B971F00665B78 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		761D4B72206B971F00665B78 /* HoverButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoverButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		761D4B76206B971F00665B78 /* HoverButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HoverButtonTests.m; sourceTree = "<group>"; };
+		761D4B78206B971F00665B78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		761D4B7D206B971F00665B78 /* HoverButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoverButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		761D4B81206B971F00665B78 /* HoverButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HoverButtonUITests.m; sourceTree = "<group>"; };
+		761D4B83206B971F00665B78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		761D4B90206B973A00665B78 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		761D4B92206B973A00665B78 /* header@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "header@2x.png"; sourceTree = "<group>"; };
+		761D4B93206B973A00665B78 /* header@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "header@3x.png"; sourceTree = "<group>"; };
+		761D4B94206B973A00665B78 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		761D4B95206B973A00665B78 /* icon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon1.png; sourceTree = "<group>"; };
+		761D4B96206B973A00665B78 /* PersonalCenterMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalCenterMainView.h; sourceTree = "<group>"; };
+		761D4B97206B973A00665B78 /* PersonalCenterMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalCenterMainView.m; sourceTree = "<group>"; };
+		761D4B98206B973A00665B78 /* PersonalCenterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalCenterView.h; sourceTree = "<group>"; };
+		761D4B99206B973A00665B78 /* PersonalCenterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalCenterView.m; sourceTree = "<group>"; };
+		761D4B9A206B973A00665B78 /* touxiang@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "touxiang@2x.png"; sourceTree = "<group>"; };
+		761D4B9B206B973A00665B78 /* touxiang@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "touxiang@3x.png"; sourceTree = "<group>"; };
+		761D4B9C206B973A00665B78 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		761D4B9D206B973A00665B78 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		761D4B9E206B973A00665B78 /* SuspensionAssistiveTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuspensionAssistiveTouch.h; sourceTree = "<group>"; };
+		761D4B9F206B973A00665B78 /* SuspensionAssistiveTouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuspensionAssistiveTouch.m; sourceTree = "<group>"; };
+		761D4BAA206B989B00665B78 /* NextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		761D4BAB206B989B00665B78 /* NextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		761D4B57206B971F00665B78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		761D4B6F206B971F00665B78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		761D4B7A206B971F00665B78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		761D4B51206B971F00665B78 = {
+			isa = PBXGroup;
+			children = (
+				761D4B5C206B971F00665B78 /* HoverButton */,
+				761D4B75206B971F00665B78 /* HoverButtonTests */,
+				761D4B80206B971F00665B78 /* HoverButtonUITests */,
+				761D4B5B206B971F00665B78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		761D4B5B206B971F00665B78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				761D4B5A206B971F00665B78 /* HoverButton.app */,
+				761D4B72206B971F00665B78 /* HoverButtonTests.xctest */,
+				761D4B7D206B971F00665B78 /* HoverButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		761D4B5C206B971F00665B78 /* HoverButton */ = {
+			isa = PBXGroup;
+			children = (
+				761D4B8F206B973A00665B78 /* SuspensionAssistiveTouch */,
+				761D4B5D206B971F00665B78 /* AppDelegate.h */,
+				761D4B5E206B971F00665B78 /* AppDelegate.m */,
+				761D4B60206B971F00665B78 /* ViewController.h */,
+				761D4B61206B971F00665B78 /* ViewController.m */,
+				761D4BAA206B989B00665B78 /* NextViewController.h */,
+				761D4BAB206B989B00665B78 /* NextViewController.m */,
+				761D4B63206B971F00665B78 /* Main.storyboard */,
+				761D4B66206B971F00665B78 /* Assets.xcassets */,
+				761D4B68206B971F00665B78 /* LaunchScreen.storyboard */,
+				761D4B6B206B971F00665B78 /* Info.plist */,
+				761D4B6C206B971F00665B78 /* main.m */,
+			);
+			path = HoverButton;
+			sourceTree = "<group>";
+		};
+		761D4B75206B971F00665B78 /* HoverButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				761D4B76206B971F00665B78 /* HoverButtonTests.m */,
+				761D4B78206B971F00665B78 /* Info.plist */,
+			);
+			path = HoverButtonTests;
+			sourceTree = "<group>";
+		};
+		761D4B80206B971F00665B78 /* HoverButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				761D4B81206B971F00665B78 /* HoverButtonUITests.m */,
+				761D4B83206B971F00665B78 /* Info.plist */,
+			);
+			path = HoverButtonUITests;
+			sourceTree = "<group>";
+		};
+		761D4B8F206B973A00665B78 /* SuspensionAssistiveTouch */ = {
+			isa = PBXGroup;
+			children = (
+				761D4B90206B973A00665B78 /* Header.h */,
+				761D4B91206B973A00665B78 /* MainView */,
+				761D4B9E206B973A00665B78 /* SuspensionAssistiveTouch.h */,
+				761D4B9F206B973A00665B78 /* SuspensionAssistiveTouch.m */,
+			);
+			path = SuspensionAssistiveTouch;
+			sourceTree = "<group>";
+		};
+		761D4B91206B973A00665B78 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				761D4B92206B973A00665B78 /* header@2x.png */,
+				761D4B93206B973A00665B78 /* header@3x.png */,
+				761D4B94206B973A00665B78 /* icon.png */,
+				761D4B95206B973A00665B78 /* icon1.png */,
+				761D4B96206B973A00665B78 /* PersonalCenterMainView.h */,
+				761D4B97206B973A00665B78 /* PersonalCenterMainView.m */,
+				761D4B98206B973A00665B78 /* PersonalCenterView.h */,
+				761D4B99206B973A00665B78 /* PersonalCenterView.m */,
+				761D4B9A206B973A00665B78 /* touxiang@2x.png */,
+				761D4B9B206B973A00665B78 /* touxiang@3x.png */,
+				761D4B9C206B973A00665B78 /* UIView+Extension.h */,
+				761D4B9D206B973A00665B78 /* UIView+Extension.m */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		761D4B59206B971F00665B78 /* HoverButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 761D4B86206B971F00665B78 /* Build configuration list for PBXNativeTarget "HoverButton" */;
+			buildPhases = (
+				761D4B56206B971F00665B78 /* Sources */,
+				761D4B57206B971F00665B78 /* Frameworks */,
+				761D4B58206B971F00665B78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HoverButton;
+			productName = HoverButton;
+			productReference = 761D4B5A206B971F00665B78 /* HoverButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		761D4B71206B971F00665B78 /* HoverButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 761D4B89206B971F00665B78 /* Build configuration list for PBXNativeTarget "HoverButtonTests" */;
+			buildPhases = (
+				761D4B6E206B971F00665B78 /* Sources */,
+				761D4B6F206B971F00665B78 /* Frameworks */,
+				761D4B70206B971F00665B78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				761D4B74206B971F00665B78 /* PBXTargetDependency */,
+			);
+			name = HoverButtonTests;
+			productName = HoverButtonTests;
+			productReference = 761D4B72206B971F00665B78 /* HoverButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		761D4B7C206B971F00665B78 /* HoverButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 761D4B8C206B971F00665B78 /* Build configuration list for PBXNativeTarget "HoverButtonUITests" */;
+			buildPhases = (
+				761D4B79206B971F00665B78 /* Sources */,
+				761D4B7A206B971F00665B78 /* Frameworks */,
+				761D4B7B206B971F00665B78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				761D4B7F206B971F00665B78 /* PBXTargetDependency */,
+			);
+			name = HoverButtonUITests;
+			productName = HoverButtonUITests;
+			productReference = 761D4B7D206B971F00665B78 /* HoverButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		761D4B52206B971F00665B78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "李云祥";
+				TargetAttributes = {
+					761D4B59206B971F00665B78 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					761D4B71206B971F00665B78 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 761D4B59206B971F00665B78;
+					};
+					761D4B7C206B971F00665B78 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 761D4B59206B971F00665B78;
+					};
+				};
+			};
+			buildConfigurationList = 761D4B55206B971F00665B78 /* Build configuration list for PBXProject "HoverButton" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 761D4B51206B971F00665B78;
+			productRefGroup = 761D4B5B206B971F00665B78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				761D4B59206B971F00665B78 /* HoverButton */,
+				761D4B71206B971F00665B78 /* HoverButtonTests */,
+				761D4B7C206B971F00665B78 /* HoverButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		761D4B58206B971F00665B78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761D4B6A206B971F00665B78 /* LaunchScreen.storyboard in Resources */,
+				761D4BA7206B973A00665B78 /* touxiang@3x.png in Resources */,
+				761D4BA3206B973A00665B78 /* icon1.png in Resources */,
+				761D4B67206B971F00665B78 /* Assets.xcassets in Resources */,
+				761D4BA6206B973A00665B78 /* touxiang@2x.png in Resources */,
+				761D4BA2206B973A00665B78 /* icon.png in Resources */,
+				761D4BA1206B973A00665B78 /* header@3x.png in Resources */,
+				761D4B65206B971F00665B78 /* Main.storyboard in Resources */,
+				761D4BA0206B973A00665B78 /* header@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		761D4B70206B971F00665B78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		761D4B7B206B971F00665B78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		761D4B56206B971F00665B78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761D4BA8206B973A00665B78 /* UIView+Extension.m in Sources */,
+				761D4BA4206B973A00665B78 /* PersonalCenterMainView.m in Sources */,
+				761D4BA9206B973A00665B78 /* SuspensionAssistiveTouch.m in Sources */,
+				761D4B62206B971F00665B78 /* ViewController.m in Sources */,
+				761D4B6D206B971F00665B78 /* main.m in Sources */,
+				761D4BAC206B989B00665B78 /* NextViewController.m in Sources */,
+				761D4B5F206B971F00665B78 /* AppDelegate.m in Sources */,
+				761D4BA5206B973A00665B78 /* PersonalCenterView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		761D4B6E206B971F00665B78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761D4B77206B971F00665B78 /* HoverButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		761D4B79206B971F00665B78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761D4B82206B971F00665B78 /* HoverButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		761D4B74206B971F00665B78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 761D4B59206B971F00665B78 /* HoverButton */;
+			targetProxy = 761D4B73206B971F00665B78 /* PBXContainerItemProxy */;
+		};
+		761D4B7F206B971F00665B78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 761D4B59206B971F00665B78 /* HoverButton */;
+			targetProxy = 761D4B7E206B971F00665B78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		761D4B63206B971F00665B78 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				761D4B64206B971F00665B78 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		761D4B68206B971F00665B78 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				761D4B69206B971F00665B78 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		761D4B84206B971F00665B78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		761D4B85206B971F00665B78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		761D4B87206B971F00665B78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LYF995S84P;
+				INFOPLIST_FILE = HoverButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.HoverButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		761D4B88206B971F00665B78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LYF995S84P;
+				INFOPLIST_FILE = HoverButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.HoverButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		761D4B8A206B971F00665B78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LYF995S84P;
+				INFOPLIST_FILE = HoverButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.HoverButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HoverButton.app/HoverButton";
+			};
+			name = Debug;
+		};
+		761D4B8B206B971F00665B78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LYF995S84P;
+				INFOPLIST_FILE = HoverButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.HoverButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HoverButton.app/HoverButton";
+			};
+			name = Release;
+		};
+		761D4B8D206B971F00665B78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LYF995S84P;
+				INFOPLIST_FILE = HoverButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.HoverButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HoverButton;
+			};
+			name = Debug;
+		};
+		761D4B8E206B971F00665B78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LYF995S84P;
+				INFOPLIST_FILE = HoverButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.HoverButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HoverButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		761D4B55206B971F00665B78 /* Build configuration list for PBXProject "HoverButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				761D4B84206B971F00665B78 /* Debug */,
+				761D4B85206B971F00665B78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		761D4B86206B971F00665B78 /* Build configuration list for PBXNativeTarget "HoverButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				761D4B87206B971F00665B78 /* Debug */,
+				761D4B88206B971F00665B78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		761D4B89206B971F00665B78 /* Build configuration list for PBXNativeTarget "HoverButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				761D4B8A206B971F00665B78 /* Debug */,
+				761D4B8B206B971F00665B78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		761D4B8C206B971F00665B78 /* Build configuration list for PBXNativeTarget "HoverButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				761D4B8D206B971F00665B78 /* Debug */,
+				761D4B8E206B971F00665B78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 761D4B52206B971F00665B78 /* Project object */;
+}
